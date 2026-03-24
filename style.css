@@ -295,3 +295,14 @@ nav .fa-envelope {
         flex-direction: column;
     }
 }
+@media (max-width: 375px){
+     nav a {
+        padding: 5px;
+    }
+
+    nav .fa-facebook {
+        padding-left: 8px;
+        color: rgb(255, 63, 133);
+        font-size: 20px;
+    }
+}
