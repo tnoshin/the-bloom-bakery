@@ -29,7 +29,6 @@ h1 {
     font-size: 100px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
-    padding-left: 85px;
     font-family: 'Dancing Script', cursive;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -38,7 +37,6 @@ h1 {
 
 h5 {
     color: rgba(255, 255, 255, 0.881);
-    padding-left: 100px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
@@ -187,7 +185,7 @@ p {
 }
 
 nav .fa-facebook {
-    padding-left: 500px;
+    padding-left: 600px;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
@@ -247,12 +245,6 @@ nav .fa-envelope {
 .mitems {
     font-size: 25px;
     text-shadow: 1px 2px 3px black;
-}
-
-nav .fa-facebook {
-    padding-left: 8px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
 }
 
 @media (max-width: 768px) {
