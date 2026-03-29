@@ -53,3 +53,11 @@ nav .fa-envelope {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+@media(max-width:400px) {
+    h1 {
+    font-size: 60px;
+}
+form {
+    font-size: 18px;
+}
+}
