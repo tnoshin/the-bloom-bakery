@@ -359,3 +359,11 @@ nav .fa-envelope {
         object-position: center;
     }
 }
+@media (max-width: 375px){
+    nav .fa-facebook {
+    padding-left: 40px;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    }
+}
+
