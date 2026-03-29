@@ -15,22 +15,24 @@
         <a href="mailto:hello@bloombakery.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
     </nav>
     <h1>Contact Us</h1>
-    <form>
+    <form action="https://formspree.io/f/xqegpqjy"
+  method="POST">
         <p>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname">
+            <label type="email" for="Name">First Name</label>
+            <input type="text" id="Name" name="Name">
         </p>
         <p>
-            <label for="tomato">E-mail Address</label>
-            <input type="text" name="tomato" id="tomato">
+            <label for="Email">E-mail Address</label>
+            <input type="text" name="Email" id="Email">
         </p>
         <p>
-            <label for="potato">Message</label>
-            <textarea name="potato" id="potato"></textarea>
+            <label for="Message">Message</label>
+            <textarea name="Message" id="Message"></textarea>
         </p>
-        <button type="button">Submit</button>
+        <button type="submit">Submit</button>
     </form>
     <script src="contact.js"></script>
 </body>
+
 
 </html>
