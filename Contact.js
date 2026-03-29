@@ -1,12 +1,12 @@
-document.querySelector(`button`).addEventListener(`click`, function () {
-    if (document.querySelector(`#fname`).value === ``) {
-        alert(`Please fill the name.`)
-    }
-    else if (document.querySelector(`#tomato`).value === ``) {
-        alert(`Please fill in the email address`)
-    }
-    else if (document.querySelector(`#potato`).value === ``) { alert(`Please write the message`) }
-    else {
-        alert(`Message sent! Thank you`)
+document.querySelector(`form`).addEventListener(`submit`, function(event) {
+    if (document.querySelector(`#Name`).value === ``) {
+        event.preventDefault();
+        alert(`Please fill in your name.`);
+    } else if (document.querySelector(`#Email`).value === ``) {
+        event.preventDefault();
+        alert(`Please fill in your email.`);
+    } else if (document.querySelector(`#Message`).value === ``) {
+        event.preventDefault();
+        alert(`Please write the message.`);
     }
 })
