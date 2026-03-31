@@ -324,7 +324,7 @@ nav .fa-envelope {
     }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 400px) {
 
     h1 {
         font-size: 100px;
