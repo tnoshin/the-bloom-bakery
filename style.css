@@ -3,7 +3,9 @@ body {
     padding: 0px;
     background-color: #310216;
 }
-
+html{
+    scroll-behaviour:smooth;
+}    
 nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.766);
